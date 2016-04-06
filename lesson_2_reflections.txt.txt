@@ -1,0 +1,2 @@
+git init - inicializa un repositorio
+	No crea el primer commint, necesitamos crearlo nosotros para tener un punto de partida

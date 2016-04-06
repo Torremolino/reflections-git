@@ -1,0 +1,23 @@
+﻿cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+git log para saber cuantos repositorios hay comenzando por el más reciente
+git diff to compare two files - en rojo las líneas eliminadas y en verde las añadidas - It takes two arguments
+	 - the two commit ids to compare. Primero el viejo y luego el nuevo
+git checkout para probar un repositorio anterior -  It takes one argument - the commit ID to restore.
+git clone hace copias de repositorios enteros - t takes one argument - the url of the repository to copy.
+
+diff u- n_archivo n_archivo	#compara dos archivos de texto y te muestra las diferencias
+
+git init - crea un repositorio. OJO no crea ningun commint
+git status - indica los archivos que han cambiado desde el último commint
+
+
