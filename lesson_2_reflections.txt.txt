@@ -1,2 +1,21 @@
-git init - inicializa un repositorio
+git init * inicializa un repositorio
 	No crea el primer commint, necesitamos crearlo nosotros para tener un punto de partida
+
+git add nombre_archivo * añade un archivo al staging_area  **hay que añadir los archivos al staging area que se quieran hacer commit
+
+git status * muestra el estado del repositorio indicando los archivos que han sido modificados
+	y los que no han sido añadidos al repositorio
+
+git diff * muestra las diferencias entre el área de trabajo y la staging
+git diff --staged * muestra las diferencias entre el staging y el commit más reciente
+git reset --hard * deshace todos los cambios del staging y del area de trabajo ESTA ACCIÓN NO SE PUEDE DESHACER
+
+git checkout master * nos situa en el repositorio master
+git branch * muestra las ramas que tenemos
+git branch nombre_branch * crea una nueva rama
+git checkout nombre_branch * cambia a la rama seleccionada
+
+git log --graph --oneline  nombre_branch nombre_branch * muestra de forma grafica simple el arbol
+git show numero_commit * muestra las diferencias de un commit con el inmediato anterior del mismo branch
+git merge nombre_branch nombre_branch * junta los dos branch ¡ojo! TENEMOS QUE ESTAR SITUADOS EN UNO DE LOS
+	DOS BRANCH A CONVINAR. 
