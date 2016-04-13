@@ -1,3 +1,8 @@
+git remote -v  *esto nos dice que hay un repositorio que se usará tanto para
+	recibir (fetch) como para enviar (push) 
+
+
+
 1. Checkout el master branch y hacer pull de los cambios mas recientes
 
     $git checkout master
