@@ -1,7 +1,14 @@
 git init * inicializa un repositorio
 	No crea el primer commint, necesitamos crearlo nosotros para tener un punto de partida
+	
+
+
+
 
 git add nombre_archivo * añade un archivo al staging_area  **hay que añadir los archivos al staging area que se quieran hacer commit
+	If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt
+	git add .  - añade todos los archivos modificados de una sola vez
+
 
 git status * muestra el estado del repositorio indicando los archivos que han sido modificados
 	y los que no han sido añadidos al repositorio

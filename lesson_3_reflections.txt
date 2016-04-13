@@ -1,0 +1,50 @@
+1. Checkout el master branch y hacer pull de los cambios mas recientes
+
+    $git checkout master
+
+    $git pull
+
+
+2. Crear un branch para trabajar tus cambios
+
+    $git branch nombre-de-tu-branch
+
+    $git checkout nombre-de-tu-branch
+
+
+3. Haces tus cambios y luego haces add y commit
+
+    $git status
+
+
+para ver que files cambiaron o se añadieron al proyecto
+
+    $git add .
+
+
+para añadir todo los nuevos cambios y files
+
+    $git commit -a -m ‘Explicacion de los cambios’
+
+
+4. Hacer un rebase con el master branch y luego merge
+
+    $git checkout master
+
+    $git pull
+
+    $git checkout nombre-de-tu-branch
+
+    $git rebase master
+
+
+En este momento aparecerán conflictos si existen. Es mejor tener conflictos en un branch que no es el master del proyecto. ;-)
+
+    $git checkout master
+
+    $git merge nombre-de-tu-branch
+
+
+5. Enviar cambios a github
+
+    $git push
